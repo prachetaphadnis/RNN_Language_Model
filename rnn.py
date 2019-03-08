@@ -12,18 +12,6 @@ class RNN(object):
     '''
     This class implements Recurrent Neural Networks.
     
-    You should implement code in the following functions:
-        predict                ->    predict an output sequence for a given input sequence
-        acc_deltas            ->    accumulate update weights for the RNNs weight matrices, standard Back Propagation
-        acc_deltas_bptt        ->    accumulate update weights for the RNNs weight matrices, using Back Propagation Through Time
-        acc_deltas_np        ->    accumulate update weights for the RNNs weight matrices, standard Back Propagation -- for number predictions
-        acc_deltas_bptt_np    ->    accumulate update weights for the RNNs weight matrices, using Back Propagation Through Time -- for number predictions
-        compute_loss         ->    compute the (cross entropy) loss between the desired output and predicted output for a given input sequence
-        compute_mean_loss    ->    compute the average loss over all sequences in a corpus
-        generate_sequence    ->    use the RNN to generate a new (unseen) sequnce
-    
-    Do NOT modify any other methods!
-    Do NOT change any method signatures!
     '''
     
     def __init__(self, vocab_size, hidden_dims, out_vocab_size):
