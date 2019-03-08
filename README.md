@@ -8,6 +8,7 @@
    - Unsupervised version of the verb number prediction model can be accessed using predict-lm (uses train-lm for training)
    - To study the effects of syntactic structure and to anaylse the extent to which a simple RNN can learn long distance syntax dependencies, the code also implements a noun only model, where only nouns in the sentence re passed as input and ver number predictions are made based on this lerning. This is loosely based on [noun baseline](https://arxiv.org/abs/1611.01368) by Linzen et. al.
      This can be accessed using train-np-noun and test-np-noun modes respectively.
+   - Data used for this model is the Wikipedia Corpus by Linzen
    
 # References
    - Tomas Mikolov, Martin Karafiat, Lukas Burget, Jan Cernock ´ y, and Sanjeev Khudanpur. Recurrent neural network based language model. In INTERSPEECH, volume 2, page 3, 2010.
